@@ -1,0 +1,15 @@
+{
+  "corpus_size": 30000,
+  "min_words_per_article": 2000,
+  "max_words_per_article": 50000,
+  "output_dir": "../corpus",
+  "source": "arxiv",
+  "category": "cs.AI",
+  "delay_between_requests": 0.3,
+  "user_agent": "MAI-IR-Crawler/1.0 (mailto:student@mai.ru)",
+  "timeout": 30,
+  "max_retries": 3,
+  "batch_size": 100,
+  "start_date": "2020-01-01",
+  "end_date": "2024-12-31"
+}

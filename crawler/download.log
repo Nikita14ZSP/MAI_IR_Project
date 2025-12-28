@@ -1,0 +1,27 @@
+/Users/mozgovojnikita/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Начало загрузки корпуса с arXiv.org
+Категория: cs.AI
+Целевой размер: 500 статей
+Минимум слов на статью: 2000
+Уже скачано: 293 статей
+
+Загрузка статей:  59%|█████▊    | 293/500 [00:00<?, ?it/s]Ошибка при поиске на arXiv (start=300): HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+Ошибка при поиске на arXiv (start=10000): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10000&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10100): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10100&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10200): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10200&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10300): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10300&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10400): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10400&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10500): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10500&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10600): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10600&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10700): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10700&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10800): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10800&max_results=100&sortBy=submittedDate&sortOrder=descending
+Ошибка при поиске на arXiv (start=10900): 500 Server Error: Internal Server Error for url: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&start=10900&max_results=100&sortBy=submittedDate&sortOrder=descending
+Загрузка статей:  59%|█████▊    | 293/500 [55:14<?, ?it/s]
+
+Прекращение загрузки: нет доступных статей
+
+Загрузка завершена!
+Скачано статей: 293
+Корпус сохранен в: ../corpus
+Метаданные: ../corpus/metadata.json
